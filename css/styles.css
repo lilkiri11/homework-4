@@ -340,6 +340,17 @@ img {
 }
 
 /* Section-5 */
+.title-text-clients {
+  margin-bottom: 72px;
+  color: var(--color-primery);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .clients {
   padding: 120px 0;
 }
@@ -371,8 +382,16 @@ img {
 }
 
 /* Footer */
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 
 .bottom-section {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
   background-color: var(--color-primery);
   padding: 100px 0;
 }
