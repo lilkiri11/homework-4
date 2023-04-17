@@ -73,6 +73,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -275,6 +277,9 @@ img {
 }
 
 /* Section-4 */
+.team-container {
+  padding: 32px 0;
+}
 
 .team-seaction {
   background-color: var(--color-section);
@@ -332,6 +337,9 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--color-active-action);
+}
+.social-icon {
+  fill: var(--color-section);
 }
 
 /* Section-5 */
