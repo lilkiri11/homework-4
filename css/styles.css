@@ -385,8 +385,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
-  margin-left: 156px;
+  gap: 120px;
 }
 .social-footer {
   display: flex;
@@ -411,7 +410,6 @@ img {
   padding: 100px 0;
 }
 .footer-social {
-  margin-left: 120px;
 }
 .action-footer {
   display: inline-block;
