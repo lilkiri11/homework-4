@@ -277,9 +277,6 @@ img {
 }
 
 /* Section-4 */
-.team-container {
-  padding: 32px 0;
-}
 
 .team-seaction {
   background-color: var(--color-section);
@@ -297,7 +294,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .team-info {
-  padding: 32px 16px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
