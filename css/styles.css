@@ -185,7 +185,6 @@ img {
 .button {
   display: block;
   margin: auto;
-  padding: auto;
   min-width: 169px;
   min-height: 56px;
   border-radius: 4px;
@@ -309,7 +308,7 @@ img {
   letter-spacing: 0.02em;
 }
 .team-profession {
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   color: var(--color-secondary);
   font-weight: 400;
   font-size: 16px;
@@ -386,7 +385,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .social-footer {
   display: flex;
@@ -407,11 +405,11 @@ img {
   background-color: var(--color-background-social);
 }
 .bottom-section {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
   background-color: var(--color-primery);
   padding: 100px 0;
+}
+.footer-social {
+  margin-left: 120px;
 }
 .action-footer {
   display: inline-block;
@@ -437,13 +435,10 @@ img {
   letter-spacing: 0.02em;
 }
 .social-media-buttom {
-  display: flex;
-  justify-content: center;
-  width: 96px;
   color: var(--background-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
